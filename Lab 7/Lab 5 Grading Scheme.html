@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="font-family: verdana, sans-serif;font-size: 12px;">
+<p>The learning objectives of the lab include using a capacitive (cap) touch sensor as an input device to control a Piezo buzzer and a LED.</p>
+<p>To help you with the lab, I've published this rubric along with resources and release notes so that you can build your own projects :)</p>
+<h2>Level D: Piezo Sounder Alarm</h2>
+<p>For a D grade, provide a working demo of a Piezo sounder alarm.</p>
+<h4>Implementation Notes</h4>
+<p>To make your own Piezo sounder alarm, see "Project 11 - Piezo Sounder Alarm" in the eBook Beginning Arduino.</p>
+<p>Notes:</p>
+<ul>
+<li>Parts List :: no need for a 2-way screw terminal</li>
+<li>Source Code :: notice the Piezo buzzer is connected to pin 8 (Listing 4-1). But of course that's for an Arduino.&nbsp;You'll need to select a different pin on the Teensy. Make sure the pin you select is an <span style="text-decoration: underline;">analog</span> pin. Hint: pin 8 on the Teensy is <strong>not</strong> an analog pin (!)</li>
+</ul>
+<h2>Level C: Piezo Knock Sensor</h2>
+<p>For a C grade, provide a working demo of a Piezo knock sensor.</p>
+<p>C- if onboard LED (pin 13).</p>
+<h4>Implementation Notes</h4>
+<p>To make your own Piezo sounder alarm, see "Project 13 - Piezo Knock Sensor" in the eBook Beginning Arduino.</p>
+<p>Notes:</p>
+<ul>
+<li>Parts List :: no need for a 2-way screw terminal</li>
+<li>Source Code :: notice the Piezo buzzer is connected to pin 5 (Listing 4-3). But of course that's for an Arduino.&nbsp;You'll need to select a different pin on the Teensy. Make sure the pin you select is an <span style="text-decoration: underline;">analog</span> pin. Hint: pin 5 on the Teensy is <strong>not</strong> an analog pin (!).</li>
+</ul>
+<p>You'll need to experiment with the threshold value to 'knock' the Piezo buzzer and turn on the LED. I printed the <em>sensorValue</em> to the Serial monitor. Once I saw the values that were being read from <em>piezoPin</em>, I adjusted the threshold value to be a little greater than the max(<em>sensorValue</em>) that I saw. In other words, I determined the <em>threshold</em> value empirically; I did it by experimentation, as opposed to scientifically, such as a formula.</p>
+<h2>Level B: Piezo Sounder Melody Player</h2>
+<p>For a B grade, provide a working demo of a Piezo sounder melody player.</p>
+<p>B+ if you play another song.</p>
+<h4>Implementation Notes</h4>
+<p>To make your own Piezo sounder alarm, see "Project 12 - Piezo Sounder Melody Player" in the eBook Beginning Arduino.</p>
+<p>Notes:</p>
+<ul>
+<li>Parts List :: no need for a 2-way screw terminal</li>
+<li>Source Code :: notice the Piezo buzzer is connected to pin 8 (Listing 4-2). But of course that's for an Arduino.&nbsp;You'll need to select a different pin on the Teensy. Make sure the pin you select is an <span style="text-decoration: underline;">analog</span> pin. Hint: pin 8 on the Teensy is <strong>not</strong> an analog pin (!).</li>
+</ul>
+<h2>Level A: Light Sensor</h2>
+<p>For an A grade, provide a working demo of a light sensor.</p>
+<h4>Implementation Notes</h4>
+<p>To make your own Piezo sounder alarm, see "Project 14 - Light Sensor" in the eBook Beginning Arduino.</p>
+<p>Notes:</p>
+<ul>
+<li>Parts List :: no need for a 2-way screw terminal; use your 1 x Light Dependent Resistor (LDR)</li>
+<li>Source Code :: notice the Piezo buzzer is connected to pin 8 (Listing 4-4). But of course that's for an Arduino.&nbsp;You'll need to select a different pin on the Teensy. Make sure the pin you select is an <span style="text-decoration: underline;">analog</span> pin. Hint: pin 8 on the Teensy is <strong>not</strong> an analog pin (!).</li>
+</ul>
+<h2>Level A+: Capacitance Sensor</h2>
+<p>For an A+ grade, provide a working demo of a capacitance (cap) sensor as an input device to control a Piezo buzzer and a LED.</p>
+<p>You'll need to perform independent research on how to make a cap sensor. The good news: it's relatively easy to make a cap sensor, and you can make one out of a piece of card-board and aluminum foil. A good analogy: like a key for a piano, except it's made out of aluminum foil.</p>
+<h2>Deliverable</h2>
+<p>Upload your Teensyarduino sketch file (.INO) to Brightspace before the due date.</p>
+</body>
+</html>
